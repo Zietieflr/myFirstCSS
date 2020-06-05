@@ -1,0 +1,49 @@
+header {
+  padding: 2rem;
+  border: solid .6rem blue;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > h1 {
+  background-color: black;
+  color: white; 
+  display: inline;
+  padding: 0rem 
+}
+
+header > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row; 
+  marker: none; 
+  float: right; 
+}
+
+header > ul > li > button {
+  background-color: orange;
+  margin: 1em; 
+  padding: .5em; 
+  border-radius: .5em; 
+}
+
+main {
+  border: solid .6rem red;
+  padding: 2rem;  
+}
+
+main > h2 {
+  background-color: black;
+  color: yellow; 
+}
+
+main > section > div {
+  background-color: rgb(1, 211, 211); 
+  color: purple; 
+}
+
+footer {
+  padding: 2rem;
+  border: solid .6rem green;  
+}
